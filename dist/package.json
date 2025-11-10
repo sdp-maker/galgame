@@ -1,0 +1,17 @@
+{
+  "name": "my-galgame",
+  "version": "1.0.0",
+  "description": "一个简单的Galgame项目",
+  "main": "index.html",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "build": "rmdir /s /q dist 2>nul && mkdir dist && xcopy assets dist\\assets /E /I && xcopy scripts dist\\scripts /E /I && xcopy styles dist\\styles /E /I && copy index.html dist\\ && copy package.json dist\\ && copy server.js dist\\ && copy Procfile dist\\"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "keywords": ["galgame", "visual novel"],
+  "author": "",
+  "license": "MIT"
+}
