@@ -2,6 +2,9 @@
 
 这是一个简单的Galgame项目，使用HTML、CSS和JavaScript构建。
 
+## 项目概述
+娱乐用galgame - 「芦中物语: 完蛋我被美女包围了!!!」
+
 ## 项目结构
 
 ```
